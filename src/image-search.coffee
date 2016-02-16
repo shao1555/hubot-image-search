@@ -3,7 +3,6 @@ USER_AGENT_STRING = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit
 
 module.exports = (robot) ->
   robot.hear /^image (.+)/i, (res) ->
-    temp.track()
     phantom.create().then (ph) ->
       ph.createPage().then (page) ->
         page.setting('userAgent', USER_AGENT_STRING).then ->
