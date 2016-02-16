@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/shao1555/hubot-image-search/issues"
   },
-  "homepage": "https://github.com/shao1555/hubot-image-search#readme"
+  "homepage": "https://github.com/shao1555/hubot-image-search#readme",
+  "dependencies": {
+    "phantom": "^2.0.0-alpha.1"
+  }
 }

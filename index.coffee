@@ -1,5 +1,4 @@
-fs = require 'fs'
-path = require 'path'
+phantom = require 'phantom'
 
 module.exports = (robot, scripts) ->
   scriptsPath = path.resolve(__dirname, 'src')
